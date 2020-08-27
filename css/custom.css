@@ -1,0 +1,296 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.main-inp:focus, .sub-inp:focus {outline: none;}
+.text-inp:focus, .text-inp:focus {outline: none;}
+.sub-inp:focus, .sub-inp:focus {outline: none !important;}
+.main-inp {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 14px !important;
+    border: 1px solid #ccc !important;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 60px !important;
+    font-size: 16px;
+    color: #000;
+}
+.text-inp {
+    background: white;
+    padding: 16px 20px;
+    border-radius: 14px !important;
+    border: 1px solid #ccc !important;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 150px !important;
+    font-size: 18px;
+    color: #000;
+}
+
+.main-inp::-webkit-input-placeholder, .text-inp::-webkit-input-placeholder {
+    color: #999;
+}
+
+.main-inp:-ms-input-placeholder, .text-inp:-ms-input-placeholder {
+  color: #999;
+}
+
+.main-inp::placeholder, .text-inp::placeholder {
+  color: #999;
+}
+
+
+.sub-inp {
+    width: 240px;
+    font-weight: 500;
+}
+
+.head {
+    padding: 10px 0 60px;
+    background: #006665;
+}
+.menu {}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu ul li a{
+    font-size: 16px;
+    color: rgba(255,255,255,.8);
+    line-height: 0;
+    margin-top: -30px;
+    display: table;
+   
+}
+.menu ul li.logo a{
+    margin-top: 0 !important;
+}
+.menu ul li.logo a img{
+    max-width: 180px;
+    width: 100%;
+}
+.signup {}
+.signup ul{}
+.signup ul li{
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 140px
+}
+.signup ul li a.active {
+    background: #ceeef3;
+    padding: 20px 40px;
+    color: #000;
+    border-radius: 60px;
+}
+.signup ul li a{
+    font-size: 16px;
+    color: rgba(255,255,255,.8);
+    line-height: 10px;
+}
+
+.banner {
+    background: #006665;
+    padding: 20px 0 80px 0;   
+    background-size: cover;
+    min-height: 700px; 
+    height: 100vh;
+    display: inline-table;
+}
+.banner .text-area{}
+.banner .text-area h1{
+    font-size: 6em;
+    color: #adcece;
+    font-weight: 300;
+    letter-spacing: 0;
+    padding-bottom: 30px;
+}
+.banner .text-area h1 span{
+    color: white;
+    font-weight: 500;
+    display: block;
+}
+.banner .text-area p{
+    color: #adcece;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+.banner .text-area a{}
+
+.btn-n-org:hover {color:white !important;}
+.btn-n-org{
+    background: #ff8473;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 17px;
+}
+
+.banner .text-im {}
+.banner .text-im img{
+    max-width: 100%;
+    border-radius: 100px 100px 0 100px;
+}
+
+.head2 {
+    padding: 7vh 0 100px 0;
+    display: inline-block;
+}
+
+.content1 {
+    padding: 100px 0;
+    background: #f7fbfb;
+}
+.alt-bg-curve {border-radius: 150px 0;}
+
+.content1 h2{
+    color: #000;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 300;
+    margin-bottom: 120px;
+}
+.content1 h2 span{
+    display: block;
+    font-weight: 500;
+    
+}
+.pt100 {padding-top: 100px;}
+.content1 h3{margin-top: 60px;}
+
+.content1 h3 hr{
+    border-top: 4px solid black;
+    width: 38px;
+    float: left;
+    margin: 10px 20px 0 0;
+}
+.content1 img{
+    max-width: 170px;
+    margin-bottom: 40px;
+}
+.content1 h4{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content1 p{
+    text-align: left;
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+
+.contact {
+    padding: 150px 0;
+}
+.contact h2{
+    color: #000;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+.contact h2 span{
+    font-weight: 500;
+}
+.contact form{
+    width: 80%;
+}
+.contact form input{}
+.contact form textarea{}
+.contact img{
+    max-width: 100%;
+    border-radius: 100px 100px 100px 0;
+    margin-top: 80px;
+}
+
+.footer {
+    padding: 120px 0 140px;
+    background: #006664;
+    color: #adcece;
+}
+.footer h5{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.footer ul{}
+.footer ul li{}
+.footer ul li a{
+    color: #adcece;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 300;
+}
+.footer p{
+    color: #adcece;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.footer a{}
+.footer a i{}
+
+.btn-bb {
+    background: rgba(255,255,255,.1);
+    color: rgba(255,255,255,0.7) !important;
+    font-weight: 300;
+    border-radius: 6px;
+    padding: 10px 22px;
+}
+
+.ft-small-curve {border-radius: 40px 0 0 0;}
+
+@media screen and (max-width: 1440px) {
+    .banner .text-area h1{font-size: 5em;}
+    .banner .text-area p {width: 90%;}
+}
+@media screen and (max-width: 1024px) {
+    .menu ul li {margin-right: 30px;}
+    .head2 {padding: 7vh 40px;}
+    .banner .text-area h1{font-size: 4em;}
+    .content1 {padding: 100px 40px;}
+    .banner .text-area p {width: 100%;}
+    .pt100 {padding-top: 50px;}
+    .contact {padding: 100px 40px;}
+    .contact form {width: 90%;}
+    .footer {padding: 100px 40px 120px;}
+}
+@media screen and (max-width: 60em) {
+    .menu, .signup, .banner .text-area, .content1, .content1 h4, .content1 p {text-align: center;}
+    .banner .text-area a {margin-bottom: 50px;}
+    .content1 h2 {margin-bottom: 0;}
+    .content1 h3 {text-align: left;}
+    .footer h5.contactsm {margin-top: 40px;}
+
+}
+@media screen and (max-width: 430px) {
+    .footer h5.portxs {margin-top: 40px;}
+}
